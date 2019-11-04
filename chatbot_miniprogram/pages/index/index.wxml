@@ -1,0 +1,19 @@
+<!--index.wxml Copyright 2019, Debiao Zhou-->
+<view class="container">
+  <view class="page-body" style="background-image: url('https://XXXXXX/XXX/background_image.png');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+    <view class="page-section">
+        <view class="ui-textarea" style="background-image: url('https://XXXXXX/XXX/textarea_image.png');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+          <textarea class="ui-text" style="margin:60rpx;" maxlength="-1" value="{{transcript}}"/>
+        </view>
+        <view class="ui-cell ui-editarea" style="display: flex; justify-content: space-around;align-items: flex-start;margin-top: 30rpx;margin-right: 90rpx;background-image: url('https://XXXXXX/XXX/icon_editBox.png');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+          <view>
+            <image class="ui-image" src="../../images/icon_record.png" bindtap='recordMessage'></image>
+          </view>
+          <textarea class="ui-edit" style="margin-top:10rpx;" maxlength="-1" value="{{script}}" bindinput='inputScript'/>
+          <view>
+            <image class="ui-image" src="../../images/icon_send.png" bindtap='sendMessage'></image>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

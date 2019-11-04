@@ -1,0 +1,65 @@
+/*!
+ * app.wxss v1.0.0
+ * Copyright 2019, Debiao Zhou
+ */
+ page {
+  background-color: #FFFFFF;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  justify-content: space-between;
+  font-size: 32rpx;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.page-body {
+  width: 100%;
+  flex-grow: 1;
+  overflow-x: hidden;
+}
+.page-section{
+  width: 100%;
+  height: 100%;
+  margin: 5%;
+}
+.ui-textarea {
+  display: block;
+  width: 90%;
+  height: 28em;
+}
+.ui-text {
+  display: block;
+  width: 82%;
+  height: 28em;
+}
+.ui-cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ui-image{
+  margin-left: 30rpx;
+  margin-top: 0rpx;
+  margin-bottom: 0rpx;
+  width: 56rpx;
+  height: 56rpx;
+}
+.ui-editarea {
+  display: block;
+  width: 80%;
+  height: 2em;
+}
+.ui-edit {
+  display: block;
+  width: 100%;
+  height: 2em;
+}

@@ -1,0 +1,5 @@
+/**
+ * index.wxss v1.0.0
+ * Copyright 2019, Debiao Zhou
+**/
+@import "../common/ui.wxss";
