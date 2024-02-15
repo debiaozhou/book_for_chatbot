@@ -271,7 +271,6 @@ def predict(self, question):
 if __name__ == '__main__':
     phrase = 'train'
     my_seq2seq = Chatbot_Model()
-    answer = ['聊天', '机器人', '是', '一个', '模拟', '人类', '谈话', '的', '程序', ' ']
     if phrase == 'train':
         my_seq2seq.train()
     elif phrase == 'test':
@@ -283,7 +282,6 @@ if __name__ == '__main__':
             index = 0
             for w in sample[1:]:
                 (match_word, max_cos) = vector2word(w)
-                #print(match_word, max_cos, vector_sqrtlen(w))
-                print(answer[index], max_cos, vector_sqrtlen(w))
+                print(match_word, max_cos, vector_sqrtlen(w))
                 if index < 9:
                     index = index + 1
